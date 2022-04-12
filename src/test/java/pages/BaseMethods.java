@@ -14,7 +14,7 @@ public class BaseMethods {
 
     protected WebDriver driver = BaseTest.driver;
     protected Actions actions = new Actions(driver);
-    protected String firstTab;
+    protected String firstTab = BaseTest.firstTab;
     protected ArrayList<String> newTab;
 
     public WebElement findElement(By element) {
